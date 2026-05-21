@@ -296,7 +296,7 @@ export default function Home() {
             <textarea
               value={form.excuses}
               onChange={(event) => updateField("excuses", event.target.value)}
-              placeholder="예: 퀘벡 억양 탓, 현장 소음 탓, 날씨 탓"
+              placeholder="예: 유전자 탓, 현장 소음 탓, 날씨 탓"
               rows={2}
               maxLength={220}
             />
@@ -309,7 +309,7 @@ export default function Home() {
             <textarea
               value={form.patience}
               onChange={(event) => updateField("patience", event.target.value)}
-              placeholder="예: 숙소비, 출장비, 초과근무수당 1.5배까지 챙겨줌"
+              placeholder="예: 업무 미숙, 거짓말, 월급 가불"
               rows={2}
               maxLength={240}
             />
